@@ -1,2 +1,22 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+  import "./../lib/style.css";
+</script>
+
+<h1>Tierlist učitelů</h1>
+<table>
+  <tr>
+    <th scope="row">S</th>
+  </tr>
+  <tr>
+    <th scope="row">A</th>
+  </tr>
+  <tr>
+    <th scope="row">B</th>
+  </tr>
+  <tr>
+    <th scope="row">C</th>
+  </tr>
+  <tr>
+    <th scope="row">D</th>
+  </tr>
+</table>

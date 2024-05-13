@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #232323;
+  color: #e8e8e8;
+  font-family: "Montserrat", "Helvetica Neue", Bahnschrift, Roboto, sans-serif;
+}
+
+table {
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  border-collapse: collapse;
+}
+
+#float {
+  position: fixed;
+  display: flex;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #444444;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#float > img {
+  height: 40px;
+}
+
+footer,
+footer a,
+footer a:visited {
+  font-size: 0.75rem;
+  text-align: center;
+  color: #8b8b8b;
+}
+
+table a {
+  text-decoration: none;
+  color: #e8e8e8;
+}
+
+th,
+td {
+  border: 2px solid #a2adbd;
+  padding: 0.5rem;
+}
+
+h2,
+h1 {
+  border-bottom: 2px solid #a2adbd;
+  padding: 0.25rem;
+}
