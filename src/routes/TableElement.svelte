@@ -1,4 +1,13 @@
 <script>
-    export let predmet;
+    export let zobrazeno;
+    export let cisloPredmetu;
+    import predmety from "./../lib/predmety.json"
 </script>
-<td></td>
+{#if zobrazeno === cisloPredmetu}
+<h1>{predmety[cisloPredmetu].name}</h1>
+<ul>
+    {#each predmety[cisloPredmetu].body as bodPredmetu}
+        <li>{bodPredmetu}</li>
+    {/each}
+</ul>
+{/if}
