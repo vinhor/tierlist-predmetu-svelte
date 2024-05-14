@@ -7,7 +7,6 @@
 <table>
   <tr>
     <th scope="row">S</th>
-    <td></td>
   </tr>
   <tr>
     <th scope="row">A</th>
