@@ -1,6 +1,6 @@
 <script>
   import "./../lib/style.css";
-  import TableElement from "./TableElement.svelte";
+  import TableElementLink from "./TableElementLink.svelte";
 </script>
 
 <h1>Tierlist učitelů</h1>
