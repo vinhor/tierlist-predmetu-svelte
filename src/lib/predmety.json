@@ -5,5 +5,20 @@
             "Děláme pokusy",
             "Většinou zábavná"
         ]
+    },
+    {
+        "name": "Matematika",
+        "body": [
+            "Dobře vysvětleno",
+            "Proč se některý věci učíme?"
+        ]
+    },
+    {
+        "name": "Chemie",
+        "body": [
+            "PROČ SE TO UČÍME?!",
+            "Zmatek nad zmatek a vše je zmatek",
+            "Občas dobrý"
+        ]
     }
 ]

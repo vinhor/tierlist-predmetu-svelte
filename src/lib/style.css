@@ -17,23 +17,6 @@ table {
   border-collapse: collapse;
 }
 
-#float {
-  position: fixed;
-  display: flex;
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  background-color: #444444;
-  bottom: 1.5rem;
-  right: 1.5rem;
-  align-items: center;
-  justify-content: center;
-}
-
-#float > img {
-  height: 40px;
-}
-
 footer,
 footer a,
 footer a:visited {
@@ -61,4 +44,23 @@ h1 {
 
 main {
   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  width: 3rem;
+  height: 3rem;
+  cursor: pointer;
+  background-color: #444444;
+  border: none;
+  border-radius: 0.5rem;
+  color: #e8e8e8;
+  font-family: "Montserrat", "Helvetica Neue", Bahnschrift, Roboto, sans-serif;
+  font-size: 0.75em;
+  transition: background 0.25s;
+}
+
+button:hover, button:active {
+  background-color: #505050;
 }
