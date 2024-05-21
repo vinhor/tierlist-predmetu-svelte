@@ -1,7 +1,7 @@
 <script>
   import "./../lib/style.css";
   import TableElement from "./TableElement.svelte";
-  const cislaPredmetu = { fyzika: 0, matematika: 1, chemie: 2, obcanka: 3 }
+  const cislaPredmetu = { fyzika: 0, matematika: 1, chemie: 2, obcanka: 3, zemepis: 4, dejepis: 5 }
   let zobrazeno;
 </script>
 
@@ -16,9 +16,11 @@
   <tr>
     <th scope="row">A</th>
     <td><button on:click={() => zobrazeno = cislaPredmetu.matematika}>M</button></td>
+    <td><button on:click={() => zobrazeno = cislaPredmetu.dejepis}>D</button></td>
   </tr>
   <tr>
     <th scope="row">B</th>
+    <td><button on:click={() => zobrazeno = cislaPredmetu.zemepis}>Z</button></td>
 
   </tr>
   <tr>
@@ -35,4 +37,6 @@
 <TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.matematika} />
 <TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.chemie} />
 <TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.obcanka} />
+<TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.zemepis} />
+<TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.dejepis} />
 </main>

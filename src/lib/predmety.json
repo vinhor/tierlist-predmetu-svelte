@@ -27,5 +27,19 @@
             "Chce se vám spát",
             "Cyklus roku === mor"
         ]
+    },
+    {
+        "name": "Zeměpis",
+        "body": [
+            "Ne až tak zajímavé",
+            "Mid"
+        ]
+    },
+    {
+        "name": "Dějepis",
+        "body": [
+            "Neřešíme antiku, ale 20. století",
+            "Dobře podané"
+        ]
     }
 ]
