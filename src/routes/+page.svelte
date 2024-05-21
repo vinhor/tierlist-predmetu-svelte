@@ -1,7 +1,6 @@
 <script>
   import "./../lib/style.css";
   import TableElement from "./TableElement.svelte";
-  const cislaPredmetu = { fyzika: 0, matematika: 1, chemie: 2, obcanka: 3, zemepis: 4, dejepis: 5 }
   let zobrazeno;
 </script>
 
@@ -11,32 +10,37 @@
 <tbody>
   <tr>
     <th scope="row">S</th>
-    <td><button on:click={() => zobrazeno = cislaPredmetu.fyzika}>Fy</button></td>
+    <td><button on:click={() => zobrazeno = 0}>Fy</button></td>
+    <td><button on:click={() => zobrazeno = 5}>D</button></td>
   </tr>
   <tr>
     <th scope="row">A</th>
-    <td><button on:click={() => zobrazeno = cislaPredmetu.matematika}>M</button></td>
-    <td><button on:click={() => zobrazeno = cislaPredmetu.dejepis}>D</button></td>
+    <td><button on:click={() => zobrazeno = 1}>M</button></td>
+    <td><button on:click={() => zobrazeno = 7}>Čjl</button></td>
   </tr>
   <tr>
     <th scope="row">B</th>
-    <td><button on:click={() => zobrazeno = cislaPredmetu.zemepis}>Z</button></td>
+    <td><button on:click={() => zobrazeno = 4}>Z</button></td>
+    <td><button on:click={() => zobrazeno = 8}>Bi</button></td>
 
   </tr>
   <tr>
     <th scope="row">C</th>
-    <td><button on:click={() => zobrazeno = cislaPredmetu.obcanka}>Ov</button></td>
+    <td><button on:click={() => zobrazeno = 3}>Ov</button></td>
+    <td><button on:click={() => zobrazeno = 6}>Čjm</button></td>
   </tr>
   <tr>
     <th scope="row">D</th>
-    <td><button on:click={() => zobrazeno = cislaPredmetu.chemie}>Ch</button></td>
+    <td><button on:click={() => zobrazeno = 2}>Ch</button></td>
   </tr>
   </tbody>
 </table>
-<TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.fyzika} />
-<TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.matematika} />
-<TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.chemie} />
-<TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.obcanka} />
-<TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.zemepis} />
-<TableElement {zobrazeno} cisloPredmetu={cislaPredmetu.dejepis} />
+<TableElement {zobrazeno} cisloPredmetu={0} />
+<TableElement {zobrazeno} cisloPredmetu={1} />
+<TableElement {zobrazeno} cisloPredmetu={2} />
+<TableElement {zobrazeno} cisloPredmetu={3} />
+<TableElement {zobrazeno} cisloPredmetu={4} />
+<TableElement {zobrazeno} cisloPredmetu={5} />
+<TableElement {zobrazeno} cisloPredmetu={6} />
+<TableElement {zobrazeno} cisloPredmetu={7} />
 </main>
