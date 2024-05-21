@@ -45,4 +45,5 @@
 <TableElement {zobrazeno} cisloPredmetu={6} />
 <TableElement {zobrazeno} cisloPredmetu={7} />
 <TableElement {zobrazeno} cisloPredmetu={8} />
+<TableElement {zobrazeno} cisloPredmetu={9} />
 </main>
