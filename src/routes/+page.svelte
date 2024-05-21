@@ -19,14 +19,15 @@
   </tr>
   <tr>
     <th scope="row">B</th>
-    <td><button on:click={() => zobrazeno = cislaPredmetu.chemie}>Ch</button></td>
+
   </tr>
   <tr>
     <th scope="row">C</th>
+    <td><button on:click={() => zobrazeno = cislaPredmetu.obcanka}>Ov</button></td>
   </tr>
   <tr>
     <th scope="row">D</th>
-    <td><button on:click={() => zobrazeno = cislaPredmetu.obcanka}>Ov</button></td>
+    <td><button on:click={() => zobrazeno = cislaPredmetu.chemie}>Ch</button></td>
   </tr>
   </tbody>
 </table>
