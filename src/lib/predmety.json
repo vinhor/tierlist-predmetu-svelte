@@ -56,5 +56,12 @@
             "Proč existuje povinná četba?",
             "Čteme. A díváme se. Na filmy."
         ]
+    },
+    {
+        "name": "Biologie",
+        "body": [
+            "Občas zábavný, občas nudný",
+            "Testy na široké téma - blbý, musíme se na ně hodně učit"
+        ]
     }
 ]
