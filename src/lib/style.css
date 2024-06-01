@@ -49,16 +49,17 @@ main {
 }
 
 button {
-  width: 3rem;
+  width: 4rem;
   height: 3rem;
   cursor: pointer;
+  padding: 0.5rem;
   background-color: #444444;
   border: none;
   border-radius: 0.5rem;
   color: #e8e8e8;
   font-family: "Montserrat", "Helvetica Neue", Bahnschrift, Roboto, sans-serif;
-  font-size: 0.75em;
   transition: background 0.25s;
+  font-size: 0.8em;
 }
 
 button:hover, button:active {
