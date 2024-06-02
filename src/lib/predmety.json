@@ -80,5 +80,9 @@
       "Celkem dobrý",
       "Předmět, který využijeme v životě (ano, dívám se na tebe, chemie)"
     ]
+  },
+  {
+    "name": "Tělocvik",
+    "body": ["V pohodě", "VŠICHNI použijete ručník, pantofle, mýdlo."]
   }
 ]
