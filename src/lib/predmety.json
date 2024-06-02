@@ -1,76 +1,65 @@
 [
-    {
-        "name": "Fyzika",
-        "body": [
-            "Děláme pokusy",
-            "Většinou zábavná"
-        ]
-    },
-    {
-        "name": "Matematika",
-        "body": [
-            "Dobře vysvětleno",
-            "Proč se některý věci učíme?"
-        ]
-    },
-    {
-        "name": "Chemie",
-        "body": [
-            "PROČ SE TO UČÍME?!",
-            "Zmatek nad zmatek a vše je zmatek"
-        ]
-    },
-    {
-        "name": "Občanka",
-        "body": [
-            "Nuda, ale teďka lepší",
-            "Chce se vám spát",
-            "Cyklus roku === mor"
-        ]
-    },
-    {
-        "name": "Zeměpis",
-        "body": [
-            "Ne až tak zajímavé",
-            "Mid"
-        ]
-    },
-    {
-        "name": "Dějepis",
-        "body": [
-            "Neřešíme antiku, ale 20. století",
-            "Dobře podané"
-        ]
-    },
-    {
-        "name": "Čeština - mluvnice",
-        "body": [
-            "Proč. Proč? PROČ?!",
-            "Mám pocit že některý ty věci se vytvořily jenom proto aby bylo co učit"
-        ]
-    },
-    {
-        "name": "Čeština - literatura",
-        "body": [
-            "Literatura > mluvnice",
-            "Proč existuje povinná četba?",
-            "Čteme. A díváme se. Na filmy."
-        ]
-    },
-    {
-        "name": "Biologie",
-        "body": [
-            "Občas zábavný, občas nudný",
-            "Testy na široké téma - blbý, musíme se na ně hodně učit"
-        ]
-    },
-    {
-        "name": "Angličtina",
-        "body": [
-            "Podle 2. půlky je ta učitelka hrozná.",
-            "Ústní zkoušení === mor²",
-            "Hodiny se vlečou",
-            "Tisíc a jeden domácí ůkol"
-        ]
-    }
+  {
+    "name": "Fyzika",
+    "body": ["Děláme pokusy", "Většinou zábavná"]
+  },
+  {
+    "name": "Matematika",
+    "body": ["Dobře vysvětleno", "Proč se některý věci učíme?"]
+  },
+  {
+    "name": "Chemie",
+    "body": ["PROČ SE TO UČÍME?!", "Zmatek nad zmatek a vše je zmatek"]
+  },
+  {
+    "name": "Občanka",
+    "body": ["Nuda, ale teďka lepší", "Chce se vám spát", "Cyklus roku === mor"]
+  },
+  {
+    "name": "Zeměpis",
+    "body": ["Ne až tak zajímavé", "Mid"]
+  },
+  {
+    "name": "Dějepis",
+    "body": ["Neřešíme antiku, ale 20. století", "Dobře podané"]
+  },
+  {
+    "name": "Čeština - mluvnice",
+    "body": [
+      "Proč. Proč? PROČ?!",
+      "Mám pocit že některý ty věci se vytvořily jenom proto aby bylo co učit"
+    ]
+  },
+  {
+    "name": "Čeština - literatura",
+    "body": [
+      "Literatura > mluvnice",
+      "Proč existuje povinná četba?",
+      "Čteme. A díváme se. Na filmy."
+    ]
+  },
+  {
+    "name": "Biologie",
+    "body": [
+      "Občas zábavný, občas nudný",
+      "Testy na široké téma - blbý, musíme se na ně hodně učit"
+    ]
+  },
+  {
+    "name": "Angličtina",
+    "body": [
+      "Podle 2. půlky je ta učitelka hrozná.",
+      "Ústní zkoušení === mor²",
+      "Hodiny se vlečou",
+      "Tisíc a jeden domácí ůkol"
+    ]
+  },
+  {
+    "name": "Informatika",
+    "body": [
+      "Lepší než na minulý škole",
+      "Scratch, ale zábavnější formou",
+      "Webovky on top!"
+    ]
+  }
 ]
