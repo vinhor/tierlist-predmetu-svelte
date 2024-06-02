@@ -12,12 +12,13 @@
     <th scope="row">S</th>
     <td><button on:click={() => zobrazeno = 0}>Fy</button></td>
     <td><button on:click={() => zobrazeno = 5}>D</button></td>
+    <td><button on:click={() => zobrazeno = 10}>Iv</button></td>
   </tr>
   <tr>
     <th scope="row">A</th>
     <td><button on:click={() => zobrazeno = 1}>M</button></td>
     <td><button on:click={() => zobrazeno = 7}>Čjl</button></td>
-    <td><button on:click={() => zobrazeno = 10}>Iv</button></td>
+    <td><button on:click={() => zobrazeno = 13}>Nj</button></td>
   </tr>
   <tr>
     <th scope="row">B</th>
@@ -52,4 +53,5 @@
 <TableElement {zobrazeno} cisloPredmetu={10} />
 <TableElement {zobrazeno} cisloPredmetu={11} />
 <TableElement {zobrazeno} cisloPredmetu={12} />
+<TableElement {zobrazeno} cisloPredmetu={13} />
 </main>
