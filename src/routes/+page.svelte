@@ -26,7 +26,7 @@
   </tr>
   <tr>
     <th scope="row">C</th>
-    <td><button on:click={() => zobrazeno = 3}>Ov</button></td>
+    <td><button on:click={() => zobrazeno = 3}>Vo</button></td>
     <td><button on:click={() => zobrazeno = 6}>Čjm</button></td>
   </tr>
   <tr>
