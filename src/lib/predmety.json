@@ -61,5 +61,9 @@
       "Scratch, ale zábavnější formou",
       "Webovky on top!"
     ]
+  },
+  {
+    "name": "Hudebka",
+    "body": ["Děláme muzikály...", "Zpíváme..."]
   }
 ]
