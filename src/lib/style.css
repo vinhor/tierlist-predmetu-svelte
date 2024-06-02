@@ -13,6 +13,7 @@ body {
 table {
   font-size: 2rem;
   display: flex;
+  margin: auto 0 auto auto;
   justify-content: center;
   border-collapse: collapse;
 }
@@ -43,7 +44,8 @@ h1 {
 }
 
 main {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: center;
 }
@@ -62,6 +64,7 @@ button {
   font-size: 0.8em;
 }
 
-button:hover, button:active {
+button:hover,
+button:active {
   background-color: #505050;
 }
