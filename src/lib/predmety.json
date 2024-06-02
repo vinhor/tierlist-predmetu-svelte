@@ -65,5 +65,13 @@
   {
     "name": "Hudebka",
     "body": ["Děláme muzikály...", "Zpíváme..."]
+  },
+  {
+    "name": "Výtvarka",
+    "body": [
+      "Kreslíme",
+      "Písemka z výtvarky (ano, taky jsem se divil že to existuje)",
+      "Ne moc zábavný, ale ne tak strašný jako Hv"
+    ]
   }
 ]
