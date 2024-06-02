@@ -24,6 +24,7 @@
     <th scope="row">B</th>
     <td><button on:click={() => zobrazeno = 4}>Z</button></td>
     <td><button on:click={() => zobrazeno = 8}>Bi</button></td>
+    <td><button on:click={() => zobrazeno = 14}>Tv</button></td>
 
   </tr>
   <tr>
@@ -54,4 +55,5 @@
 <TableElement {zobrazeno} cisloPredmetu={11} />
 <TableElement {zobrazeno} cisloPredmetu={12} />
 <TableElement {zobrazeno} cisloPredmetu={13} />
+<TableElement {zobrazeno} cisloPredmetu={14} />
 </main>
