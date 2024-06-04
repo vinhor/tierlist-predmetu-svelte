@@ -7,7 +7,7 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-      base: dev ? "" : "tierlist-predmetu-svelte",
+      base: dev ? "" : "/tierlist-predmetu-svelte",
     },
   },
 };
