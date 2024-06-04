@@ -1,7 +1,7 @@
 <script>
     export let zobrazeno;
     export let cisloPredmetu;
-    import predmety from "./../../static/predmety.json"
+    import predmety from "./../lib/predmety.json"
 </script>
 {#if zobrazeno === cisloPredmetu}
 <div>
