@@ -1,6 +1,6 @@
 <script>
-  import "./../lib/style.css";
   import TableElement from "./TableElement.svelte";
+  import "./../../static/style.css";
   let zobrazeno;
 </script>
 
