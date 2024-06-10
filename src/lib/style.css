@@ -71,3 +71,7 @@ button.zobrazene {
 button.zobrazene {
   cursor: not-allowed;
 }
+
+.TableText {
+  max-width: 30rem;
+}

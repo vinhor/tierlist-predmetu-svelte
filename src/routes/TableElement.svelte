@@ -4,7 +4,7 @@
     import predmety from "./../lib/predmety.json"
 </script>
 {#if zobrazeno === cisloPredmetu}
-<div>
+<div class="TableText">
 <h1>{predmety[cisloPredmetu].name}</h1>
 <ul>
     {#each predmety[cisloPredmetu].body as bodPredmetu}
